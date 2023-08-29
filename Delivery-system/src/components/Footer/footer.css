@@ -1,0 +1,16 @@
+.footer{
+    
+    width: 101vw !important;
+    position: fixed;
+    bottom: -1px;
+   
+}
+.footer .contentfooter{
+    background-color: #29292C;
+    border-radius: 30px 30px 0 0;
+}
+.footer .iconsfooter{
+    color: #FFD439;
+   
+}
+.Mui-selected{color: #ffd439!important;}
