@@ -1,6 +1,7 @@
 *{
-  background-color: red;
+ 
   border-color: #ffd439 !important;
+  color: #ffd439 !important;
  
  
 }
@@ -19,7 +20,7 @@
  
   
 }
-
+/*
 .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
   border-color: #ffd439 !important;
  
@@ -37,4 +38,4 @@
     text-align: center!important;
     left: 5px!important;
     top: -6px!important;
-}
+}*/
