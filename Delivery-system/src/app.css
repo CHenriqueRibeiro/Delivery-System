@@ -6,6 +6,20 @@
    
 }
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD439;
+}
+
+#root{
+   position: relative;
+    height: 100vh;
+    max-width: 425px;
+    width: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #FFD439;
     
-background-color: #FFD439;
 }

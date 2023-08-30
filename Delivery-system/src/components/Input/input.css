@@ -1,0 +1,25 @@
+.inputbox{
+
+    height: 50px;
+    position: absolute;
+    top: 21%;
+    left: 30px;
+    
+}
+#outlined-basic{
+    position: relative;
+    max-width: 425px;
+    width: 75vw;
+    height: 10px;
+    color:  #ffd439;
+        text-align: baseline;
+   
+  
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: #ffd439!important;
+    color: #ffd439!important;
+}
+
+

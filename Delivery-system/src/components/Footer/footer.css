@@ -1,8 +1,8 @@
 .footer{
-    
-    width: 101vw !important;
+    max-width: 425px;
+    width: 100vw !important;
     position: fixed;
-    bottom: -1px;
+    bottom: 0px;
    
 }
 .footer .contentfooter{
