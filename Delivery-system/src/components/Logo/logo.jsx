@@ -11,9 +11,9 @@ export default function ImageLogo() {
     <div className="containerlogo">
       <Avatar className="imglogo" alt="Remy Sharp" src={imagem}/>
       <div className="descriptioncompany">
-      <h3 className="textlogo">Lanchonete do Luiz</h3>
-      <span className="contact">{<WhatsAppIcon className="iconscontact" />}(85)999999999</span>
-      <span className="contact">{<LocationOnIcon className="iconslocallogo" />} Av.Guto Ferreira, 95</span>
+      <h3 className="textlogo">Taco Tex-Mex</h3>
+      <span className="contact">{<WhatsAppIcon className="iconscontact" />}(85)9 99999999</span>
+      <span className="contact">{<LocationOnIcon className="iconslocallogo" />} Av.Luiz Ferreira, 95</span>
       </div>
     </div>
   );
