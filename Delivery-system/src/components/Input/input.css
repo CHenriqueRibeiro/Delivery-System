@@ -1,3 +1,8 @@
+*{
+  color: #ffd439 !important;
+  border-color: #ffd439 !important;
+ 
+}
 .inputbox {
     
   height: 50px;
@@ -14,11 +19,11 @@
   text-align: baseline;
 }
 
-.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+/*.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
   border-color: #ffd439!important;
  
 }
-.css-yjsfm1 span{
+.css-yjsfm1 {
     color:  #ffd439!important;
 }
 .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
