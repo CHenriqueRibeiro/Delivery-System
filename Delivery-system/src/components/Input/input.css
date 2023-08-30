@@ -1,4 +1,9 @@
-
+*{
+  
+  border-color: #ffd439 !important;
+ 
+ 
+}
 .inputbox {
     
   height: 50px;
@@ -11,19 +16,25 @@
   max-width: 425px;
   width: 75vw;
   height: 10px;
-  color: #ffd439;
+ 
   text-align: baseline;
 }
 
 .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
-  border-color: #ffd439!important;
-  
+  border-color: #ffd439 !important;
  
 }
-
-.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root, .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
- 
+.css-yjsfm1 {
+    color:  #ffd439 !important;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+    color: #ffd439 !important;
+   
+    
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    color: #ffd439!important;
+    text-align: center!important;
     left: 5px!important;
     top: -6px!important;
-    color: #ffd439 !important;
 }
