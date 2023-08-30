@@ -1,5 +1,5 @@
 *{
-  
+  background-color: red;
   border-color: #ffd439 !important;
  
  
@@ -17,7 +17,7 @@
   width: 75vw;
   height: 10px;
  
-  text-align: baseline;
+  
 }
 
 .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
