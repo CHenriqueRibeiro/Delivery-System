@@ -5,7 +5,7 @@ import "@fontsource/roboto/700.css";
 import "./app.css";
 import Footer from "./components/Footer/footer";
 import Header from "./components/Header/header";
-import Logo from "./components/logo/logo";
+import Logo from "./components/Logo/logo";
 import Input from "./components/Input/input";
 export default function App() {
   return (
