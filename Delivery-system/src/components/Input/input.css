@@ -1,7 +1,7 @@
 *{
  
   border-color: #ffd439 !important;
-  color: #ffd439 !important;
+  
  
  
 }
@@ -17,10 +17,11 @@
   max-width: 425px;
   width: 75vw;
   height: 10px;
+  color: #ffd439 !important;
  
   
 }
-/*
+
 .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
   border-color: #ffd439 !important;
  
@@ -34,8 +35,8 @@
     
 }
 .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
-    color: #ffd439!important;
-    text-align: center!important;
-    left: 5px!important;
-    top: -6px!important;
-}*/
+    color: #ffd439 !important;
+    text-align: center !important;
+    left: 5px !important;
+    top: -6px !important;
+}
