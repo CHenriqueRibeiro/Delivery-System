@@ -4,6 +4,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import Card from "../Card/card";
 import "./menu.css";
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -66,7 +67,13 @@ export default function BasicTabs() {
     
       <CustomTabPanel value={value} index={0}>
       <div>
-        Promoções
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+
       </div>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
