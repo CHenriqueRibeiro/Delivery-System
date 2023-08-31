@@ -65,10 +65,9 @@ export default function BasicTabs() {
      
     
       <CustomTabPanel value={value} index={0}>
-      <div>oi</div>
-        <div>ola</div><div>oi</div>
-        <div>ola</div><div>oi</div>
-        <div>ola</div>
+      <div>
+        Promoções
+      </div>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
         <div>oi</div>

@@ -1,32 +1,31 @@
 * {
-  
-  border-color: #ffd439 !important;
+  border-color: #29292c !important;
 }
 
 .inputbox {
   height: 50px;
   position: absolute;
-  top: 25%;
-    left: 7%;
+  top: 9.5rem;
+  left: 1.8rem;
 }
-
 
 #outlined-basic {
   position: relative;
   max-width: 326px;
   width: 75vw;
   height: 10px;
-  color: #ffd439 !important;
+  color: #000000 !important;
 }
 
 label {
-  color: #ffd439 !important;
+  color: #29292c !important;
   left: 2px !important;
   top: -2px !important;
 }
-input {
-  border-radius: 59px 1px 59px 1px;
-}
+
 fieldset {
-  border-radius: 33px 9px 47px 31px !important;
+  border-radius: 59px !important;
+  background-color: #ffd439;
+  opacity: 0.5;
+  box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
 }

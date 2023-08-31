@@ -5,9 +5,10 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 20px;
+  top: 0.5rem;
+  bottom: 37vh;
   background-color: #29292c;
-  height: 31vh;
+  height: 8rem;
   border-radius: 59px 1px 59px 1px;
   box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 }

@@ -1,7 +1,7 @@
 #as{
   position: absolute;
   z-index: 1800;
-  bottom: 60%;
+  top: 13rem;
 
   /* max-width: 8000px; */
   width: 100%;
@@ -12,11 +12,11 @@
   color: red;
   background-color:#29292C;
   height: 150vh;
-  width: 97%;
+  width: 100%;
   position: absolute;
-  top: 41%;
+  top: 17rem;
   
-  border-radius: 15px;
+  border-radius: 18px;
 }
 #as .css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root.Mui-disabled{
   display: none;
@@ -35,6 +35,9 @@
   background-color:rgb(41, 41, 44);
   margin-right: 5px;
   margin-left: 5px;
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
  
- 
+}
+#as .css-69z67c-MuiTabs-scroller{
+  height: 60px;
 }

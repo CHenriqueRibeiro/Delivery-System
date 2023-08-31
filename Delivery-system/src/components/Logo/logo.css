@@ -1,12 +1,12 @@
 .containerlogo {
-  display: flex;
-  justify-content: end;
-  flex-direction: row;
-  position: absolute;
-  top: 22px;
-  left: 8%;
-  width: 99%;
-  height: 150px;
+  font-size: 14px;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    position: absolute;
+    top: 1%;
+    left: 7%;
+    width: 100%;
 }
 .containerlogo .imglogo {
   border-radius: 50%;
