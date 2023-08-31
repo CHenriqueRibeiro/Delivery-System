@@ -1,0 +1,33 @@
+#containermenu {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  background-color: transparent;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background-color: #29292c !important;
+  border-radius: 15px 15px 0 0;
+}
+
+
+.css-tkn350-MuiTabs-root{
+    margin-right: -45px;
+    padding: 0px 0px;
+    overflow: hidden;
+    min-height: 48px;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    position: relative;
+    bottom: 90px;
+    right: 36px;
+}
+.css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root{
+    opacity: 0.8 !important;
+    margin-left: 22px !important;
+}
+.css-ptiqhd-MuiSvgIcon-root{
+    opacity: 0.4;
+}
+.css-1aquho2-MuiTabs-indicator {
+    background-color:  #ffd439 !important;
+}

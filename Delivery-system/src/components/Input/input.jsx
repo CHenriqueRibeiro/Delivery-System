@@ -5,8 +5,10 @@ import TextField from "@mui/material/TextField";
 import "./input.css";
 export default function BasicTextFields() {
   return (
-    <Box className="inputbox" component="form" noValidate autoComplete="off">
+    <Box  id="boxinput"className="inputbox" component="form" noValidate autoComplete="off">
       <TextField id="outlined-basic" label="Ta com fome de quê?" variant="outlined" />
     </Box>
   );
 }
+
+

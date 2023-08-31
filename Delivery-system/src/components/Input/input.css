@@ -1,24 +1,32 @@
 * {
+  
   border-color: #ffd439 !important;
 }
+
 .inputbox {
   height: 50px;
   position: absolute;
-  top: 21%;
-  left: 35px;
+  top: 25%;
+    left: 7%;
 }
+
+
 #outlined-basic {
   position: relative;
-  max-width: 425px;
+  max-width: 326px;
   width: 75vw;
   height: 10px;
   color: #ffd439 !important;
 }
 
-
 label {
   color: #ffd439 !important;
-  text-align: center !important;
-  left: 5px !important;
-  top: -6px !important;
+  left: 2px !important;
+  top: -2px !important;
+}
+input {
+  border-radius: 59px 1px 59px 1px;
+}
+fieldset {
+  border-radius: 33px 9px 47px 31px !important;
 }

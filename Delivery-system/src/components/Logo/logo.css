@@ -1,13 +1,11 @@
 .containerlogo {
-  
   display: flex;
   justify-content: end;
   flex-direction: row;
   position: absolute;
   top: 22px;
-  left: 7%;
-
-  width: 85%;
+  left: 8%;
+  width: 99%;
   height: 150px;
 }
 .containerlogo .imglogo {

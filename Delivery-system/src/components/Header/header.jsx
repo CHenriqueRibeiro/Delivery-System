@@ -8,7 +8,7 @@ export default function SimpleContainer() {
     <React.Fragment  >
       <CssBaseline />
       <Container maxWidth="sm"  >
-        <Box className="containerheader"  />
+        <Box className="containerheader" direction={{ xs: 'column', sm: 'row' }} />
       </Container >
     </React.Fragment>
   );
