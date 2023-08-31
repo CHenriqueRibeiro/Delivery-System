@@ -1,32 +1,85 @@
-import * as React from 'react';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
-import  './menu.css'
-export default function ScrollableTabsButtonForce() {
+import * as React from "react";
+import PropTypes from "prop-types";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import "./menu.css";
+function CustomTabPanel(props) {
+  const { children, value, index, ...other } = props;
+
+  return (
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`simple-tabpanel-${index}`}
+      aria-labelledby={`simple-tab-${index}`}
+      {...other}
+    >
+      {value === index && (
+        <Box >
+          <Typography>{children}</Typography>
+        </Box>
+      )}
+    </div>
+  );
+}
+
+CustomTabPanel.propTypes = {
+  children: PropTypes.node,
+  index: PropTypes.number.isRequired,
+  value: PropTypes.number.isRequired,
+};
+
+
+
+export default function BasicTabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
+  
+
   return (
-    <Box id="containermenu">
-      <Tabs
-        value={value}
-        onChange={handleChange}
-        variant="scrollable"
-        scrollButtons
-        allowScrollButtonsMobile
-        aria-label="scrollable force tabs example"
-      >
-        <Tab className='btnoptionsmenu' label="Promoção" />
-        <Tab label="Pizza" />
-        <Tab label="Hamburguer" />
-        <Tab label="Pão Arabe" />
-        <Tab label="Bebidas" />
-        
-      </Tabs>
+    <>
+    <Tabs id="as"
+    value={value}
+    onChange={handleChange}
+    variant="scrollable"
+    scrollButtons
+    allowScrollButtonsMobile
+    aria-label="scrollable force tabs example"
+  >
+    <Tab label="Promoções" className="teste"/>
+    <Tab label="Pizza" className="teste"/>
+    <Tab label="Hamburguer" className="teste"/>
+    <Tab label="Pão Arabe" className="teste"/>
+    <Tab label="Pao Bola" className="teste"/>
+    <Tab label="Bebida" className="teste"/>
+   
+  </Tabs>
+    <Box id="ok">
+     
+     
+    
+      <CustomTabPanel value={value} index={0}>
+      <div>oi</div>
+        <div>ola</div><div>oi</div>
+        <div>ola</div><div>oi</div>
+        <div>ola</div>
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={1}>
+        <div>oi</div>
+        <div>ola</div>
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={2}>
+        Item Three<div>oi</div>
+        <div>ola</div>
+      </CustomTabPanel>
     </Box>
+    </>
   );
 }
+

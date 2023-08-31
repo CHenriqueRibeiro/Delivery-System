@@ -1,33 +1,40 @@
-#containermenu {
-  width: 100%;
+#as{
   position: absolute;
-  display: flex;
-  background-color: transparent;
-}
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
-  background-color: #29292c !important;
-  border-radius: 15px 15px 0 0;
-}
+  z-index: 1800;
+  bottom: 60%;
 
-
-.css-tkn350-MuiTabs-root{
-    margin-right: -45px;
-    padding: 0px 0px;
-    overflow: hidden;
-    min-height: 48px;
-    -webkit-overflow-scrolling: touch;
-    display: flex;
-    position: relative;
-    bottom: 90px;
-    right: 36px;
+  /* max-width: 8000px; */
+  width: 100%;
+  background-color:transparent;
+  
 }
-.css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root{
-    opacity: 0.8 !important;
-    margin-left: 22px !important;
+ #ok{
+  color: red;
+  background-color:#29292C;
+  height: 150vh;
+  width: 97%;
+  position: absolute;
+  top: 41%;
+  
+  border-radius: 15px;
 }
-.css-ptiqhd-MuiSvgIcon-root{
-    opacity: 0.4;
+#as .css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root.Mui-disabled{
+  display: none;
 }
-.css-1aquho2-MuiTabs-indicator {
-    background-color:  #ffd439 !important;
+#as .css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root {
+  opacity: 0 !important;
+  width: 0 !important;
+  
+}
+#as span{
+ display: none;
+}
+#as .teste{
+  color: #FFD439 !important;
+  border-radius: 25px !important;
+  background-color:rgb(41, 41, 44);
+  margin-right: 5px;
+  margin-left: 5px;
+ 
+ 
 }
