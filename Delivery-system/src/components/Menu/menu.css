@@ -27,7 +27,10 @@
   
 }
 #as span{
- display: none;
+ display: none !important;
+}
+.css-1q0ig8p {
+  display: none !important;
 }
 #as .teste{
   color: #FFD439 !important;
@@ -39,5 +42,11 @@
  
 }
 #as .css-69z67c-MuiTabs-scroller{
-  height: 60px;
+  height: 60px !important;
+}
+#as .css-12qnib{
+  height: 60px !important;
+}
+#as .css-1q0ig8p.Mui-disabled{
+  display: none;
 }
