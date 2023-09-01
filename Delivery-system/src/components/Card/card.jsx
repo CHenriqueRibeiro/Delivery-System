@@ -9,9 +9,9 @@ import './card.css'
 
 export default function MediaControlCard() {
   return (
-    <Card sx={{ display: "flex" }}>
-      <Box sx={{ display: "flex", flexDirection: "row" }}>
-        <CardContent sx={{ flex: "1 0 auto" }}>
+    <Card  sx={{ display: "flex" }}>
+      <Box id="cards">
+        <CardContent >
           <Typography component="div" variant="h6">
             Pizza de Calabresa com Catupiry
           </Typography>

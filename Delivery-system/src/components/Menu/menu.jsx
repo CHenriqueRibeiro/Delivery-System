@@ -80,7 +80,8 @@ export default function BasicTabs() {
         <Card/>
         <Card/>
         <Card/>
-        <Card/> <Card/>
+        <Card/> 
+        <Card/>
         <Card/>
 
       </div>
@@ -92,9 +93,7 @@ export default function BasicTabs() {
         <Card/>
         <Card/>
         <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         Item Three<div>oi</div>

@@ -1,15 +1,15 @@
 .css-1oqv2c0-MuiPaper-root-MuiCard-root {
-  position: relative;
-  margin: 11px 6px;
-  top: 15px;
+  position: relative !important;
+  margin: 25px 6px !important;
+  top: 15px !important;
   border-radius: 16px !important;
   background-color: #ffd439 !important;
-  display: flex;
-  flex-direction: row-reverse;
+  display: flex !important;
+  flex-direction: row-reverse !important;
  
 }
 .css-2ulfj5-MuiTypography-root{
-    font-size: 1rem !important;
+    font-size: .8rem !important ;
 }
 .css-hav9kw-MuiTypography-root{
     font-size: .6rem !important;
