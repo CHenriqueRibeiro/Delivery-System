@@ -52,6 +52,7 @@ export default function BasicTabs() {
     scrollButtons
     allowScrollButtonsMobile
     aria-label="scrollable force tabs example"
+    
   >
     <Tab label="Promoções" className="teste"/>
     <Tab label="Pizza" className="teste"/>
@@ -65,20 +66,35 @@ export default function BasicTabs() {
      
      
     
-      <CustomTabPanel value={value} index={0}>
-      <div>
+      <CustomTabPanel value={value} index={0} 
+       >
+      <div id="cardlist">
         <Card/>
         <Card/>
         <Card/>
         <Card/>
         <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/> <Card/>
         <Card/>
 
       </div>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <div>oi</div>
-        <div>ola</div>
+      <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         Item Three<div>oi</div>

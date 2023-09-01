@@ -50,3 +50,10 @@
 #as .css-1q0ig8p.Mui-disabled{
   display: none;
 }
+#simple-tabpanel-0,#simple-tabpanel-1,#simple-tabpanel-2,#simple-tabpanel-3,#simple-tabpanel-4,#simple-tabpanel-5,#simple-tabpanel-6{
+  overflow: overlay;
+  height: 550px;
+  margin-bottom: 15px;
+  padding: 0px 12px 88px 17px;
+  margin-top: 2px;
+}
