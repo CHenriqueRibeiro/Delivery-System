@@ -7,6 +7,7 @@
   margin: 10px 0;
   border-radius: 25px !important;
   background-color:  #ffd439 !important;
+  border: 5px solid #cfaa30 !important;
 }
 
 .card:first-child {
@@ -20,9 +21,10 @@
 .card img {
   height: 50%;
   width: 26%;
-  border: 1px solid red;
-  border-radius: 300px;
+  /*border: 1px solid red;*/
+  border-radius: 50px;
   margin-left: 15px;
+  box-shadow: 0px 0px 5px 2px #555;
 }
 
 .tabContents div {
