@@ -5,13 +5,19 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import './card.css'
+import "./card.css";
 
 export default function MediaControlCard() {
   return (
-    <Card  sx={{ display: "flex" }}>
-      <Box id="cards">
-        <CardContent >
+    <Card className="card" sx={{ display: "flex" }}>
+      <CardMedia
+        component="img"
+        sx={{ width: 100, display: "flex" }}
+        image="https://img.freepik.com/vetores-premium/modelo-de-logo-de-taco-logotipo-de-emblema-de-comida-de-taco_664675-608.jpg"
+        alt="Live from space album cover"
+      />
+      <Box className="cardDescription">
+        <CardContent>
           <Typography component="div" variant="h6">
             Pizza de Calabresa com Catupiry
           </Typography>
@@ -27,12 +33,6 @@ export default function MediaControlCard() {
           </Typography>
         </CardContent>
       </Box>
-      <CardMedia
-        component="img"
-        sx={{ width: 100, display: "flex" }}
-        image="https://img.freepik.com/vetores-premium/modelo-de-logo-de-taco-logotipo-de-emblema-de-comida-de-taco_664675-608.jpg"
-        alt="Live from space album cover"
-      />
     </Card>
   );
 }

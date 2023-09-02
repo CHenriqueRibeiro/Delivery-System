@@ -1,59 +1,70 @@
-#as{
-  position: absolute;
-  z-index: 1800;
-  top: 13rem;
-
-  /* max-width: 8000px; */
+#sectionsmenu {
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10%;
+}
+.tabContents {
+  background-color: #29292c;
+  height: 100%;
   width: 100%;
-  background-color:transparent;
+  overflow: auto;
+  padding: 15px;
   
 }
- #ok{
-
-  background-color:#29292C;
-  height: 150vh;
-  width: 100%;
-  position: absolute;
-  top: 17rem;
-  
-  border-radius: 18px;
+#contentmenu{
+  height: 90%;
+  overflow: hidden;
 }
-#as .css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root.Mui-disabled{
+#sectionsmenu
+  .css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root.Mui-disabled {
   display: none;
 }
-#as .css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root {
+#sectionsmenu .css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root {
   opacity: 0 !important;
   width: 0 !important;
-  
 }
-#as span{
- display: none !important;
+#sectionsmenu span {
+  display: none !important;
 }
 .css-1q0ig8p {
   display: none !important;
 }
-#as .teste{
-  color: #FFD439 !important;
+#sectionsmenu .teste {
+  color: #ffd439 !important;
   border-radius: 25px !important;
-  background-color:rgb(41, 41, 44);
+  background-color: rgb(41, 41, 44);
   margin-right: 5px;
   margin-left: 5px;
-  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
- 
+  box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
 }
-#as .css-69z67c-MuiTabs-scroller{
+#sectionsmenu .css-69z67c-MuiTabs-scroller {
+  display: flex;
+  height: 60px !important;
+  align-items: center;
+}
+#sectionsmenu .css-12qnib {
   height: 60px !important;
 }
-#as .css-12qnib{
-  height: 60px !important;
-}
-#as .css-1q0ig8p.Mui-disabled{
+#sectionsmenu .css-1q0ig8p.Mui-disabled {
   display: none;
 }
-#simple-tabpanel-0,#simple-tabpanel-1,#simple-tabpanel-2,#simple-tabpanel-3,#simple-tabpanel-4,#simple-tabpanel-5,#simple-tabpanel-6{
-  overflow: overlay;
+/*.tabContents > div {
+ 
   height: 550px;
   margin-bottom: 15px;
   padding: 0px 12px 88px 17px;
   margin-top: 2px;
+}*/
+
+#cardlistmenu {
+  height: 50%;
+  background-color: red;
+  overflow: auto !important;
+}
+.MuiTypography-root.MuiTypography-body1.css-ahj2mt-MuiTypography-root {
+  height: 150%;
 }

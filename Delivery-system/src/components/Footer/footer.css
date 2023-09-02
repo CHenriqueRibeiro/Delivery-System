@@ -3,6 +3,7 @@
     width: 100vw !important;
     position: fixed;
     bottom: 0px;
+    height: 30px;
    
 }
 .footer .contentfooter{
@@ -13,4 +14,3 @@
     color:#29292C;
    
 }
-.Mui-selected{color: #29292C!important;}
