@@ -54,20 +54,66 @@ export default function BasicTabs() {
       </Tabs>
       <Box id="contentmenu">
         <CustomTabPanel value={value} index={0} class="tabContents">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card
+            imageUrl="https://img1.gratispng.com/20180202/qrq/kisspng-sicilian-pizza-italian-cuisine-pepperoni-tarte-fla-pepperoni-pizza-5a74bcc6c6e634.1018048315175999428147.jpg"
+            flavor="Pizza Calabresa"
+            ingredients="Calabresa, Queijo, Mussarela, Orégano"
+            price={19.99}
+          />
+          <Card
+            imageUrl="https://img2.gratispng.com/20180323/czq/kisspng-sicilian-pizza-pepperoni-roll-take-out-italian-cui-pizza-5ab4e6f6dc9872.2866753315218050469036.jpg"
+            flavor="Pizza Pepperoni"
+            ingredients="Pepperoni, Queijo, Mussarela, Orégano"
+            price={24.99}
+          />
+          <Card
+            imageUrl="https://img2.gratispng.com/20180221/huq/kisspng-california-style-pizza-sicilian-pizza-pissaladixe8-cheese-pizza-5a8d6da630b176.6109414315192180861995.jpg"
+            flavor="Pizza 4 Queijos"
+            ingredients="Coalho, Mussarrela, Brie, Gorgonzola, Mussarela, Orégano, Catupiry"
+            price={19.99}
+          />
+          <Card
+            imageUrl="https://receitatodahora.com.br/wp-content/uploads/2022/03/pizza-de-calabresa.jpg"
+            flavor="Calabresa com Catupiry"
+            ingredients="Calabresa, Queijo, Mussarela, Orégano, Catupiry"
+            price={19.99}
+          />
+          <Card
+            imageUrl="https://receitatodahora.com.br/wp-content/uploads/2022/03/pizza-de-calabresa.jpg"
+            flavor="Calabresa com Catupiry"
+            ingredients="Calabresa, Queijo, Mussarela, Orégano, Catupiry"
+            price={19.99}
+          />
+          <Card
+            imageUrl="https://receitatodahora.com.br/wp-content/uploads/2022/03/pizza-de-calabresa.jpg"
+            flavor="Calabresa com Catupiry"
+            ingredients="Calabresa, Queijo, Mussarela, Orégano, Catupiry"
+            price={19.99}
+          />
+          <Card
+            imageUrl="https://receitatodahora.com.br/wp-content/uploads/2022/03/pizza-de-calabresa.jpg"
+            flavor="Calabresa com Catupiry"
+            ingredients="Calabresa, Queijo, Mussarela, Orégano, Catupiry"
+            price={19.99}
+          />
+          <Card
+            imageUrl="https://receitatodahora.com.br/wp-content/uploads/2022/03/pizza-de-calabresa.jpg"
+            flavor="Calabresa com Catupiry"
+            ingredients="Calabresa, Queijo, Mussarela, Orégano, Catupiry"
+            price={19.99}
+          />
+          <Card
+            imageUrl="https://receitatodahora.com.br/wp-content/uploads/2022/03/pizza-de-calabresa.jpg"
+            flavor="Calabresa com Catupiry"
+            ingredients="Calabresa, Queijo, Mussarela, Orégano, Catupiry"
+            price={19.99}
+          />
+          <Card
+            imageUrl="https://receitatodahora.com.br/wp-content/uploads/2022/03/pizza-de-calabresa.jpg"
+            flavor="Calabresa com Catupiry"
+            ingredients="Calabresa, Queijo, Mussarela, Orégano, Catupiry"
+            price={19.99}
+          />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1} class="tabContents">
           <Card />

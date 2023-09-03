@@ -1,5 +1,5 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
+
 import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
@@ -10,7 +10,7 @@ export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box className="footer">
+    <div className="footer">
       <BottomNavigation
         className="contentfooter"
         showLabels
@@ -35,6 +35,6 @@ export default function SimpleBottomNavigation() {
           icon={<AccountCircleOutlinedIcon className="iconsfooter" />}
         />
       </BottomNavigation>
-    </Box>
+    </div>
   );
 }

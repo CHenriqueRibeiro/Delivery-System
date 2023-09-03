@@ -17,7 +17,7 @@ export default function SimpleContainer() {
         <div id="teste">
           <Logo id="imglogo" alt="Remy Sharp" src={imagem} />
           <div className="row">
-            <h2>Taco Lanches</h2>
+            <h2>Taco Tex-Mex</h2>
             <p>{<WhatsAppIcon className="iconscontact" />}85 998767654</p>
           </div>
         </div>

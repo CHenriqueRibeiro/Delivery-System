@@ -3,7 +3,7 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import "./app.css";
-//import Footer from "./components/Footer/footer";
+import Footer from "./components/Footer/footer";
 import Menu from "./components/Menu/menu";
 import Header from "./components/Header/header";
 
@@ -20,7 +20,9 @@ export default function App() {
         <Menu />
       </div>
 
-      <div id="footer"></div>
+      <div id="footer">
+       <Footer />
+      </div>
     </Container>
   );
 }

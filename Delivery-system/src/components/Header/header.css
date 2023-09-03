@@ -4,7 +4,7 @@
   top: 0.5rem;
   padding: 10px 4px;
   position: absolute;
-  height: 14%!important;
+  height: 14% !important;
   width: 78%;
   max-width: 540px;
   min-height: 78px;
@@ -58,4 +58,12 @@
   display: flex;
   flex-direction: column;
   color: #ffd439 !important;
+}
+.row p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  gap: 12px;
 }
