@@ -5,7 +5,7 @@
   align-content: center;
   justify-content: flex-start;
   align-items: center;
-  height: 10%;
+  height: 12%;
 }
 .tabContents {
   background-color: #29292c;
@@ -13,11 +13,12 @@
   width: 100%;
   overflow: auto;
   padding: 15px;
-  
 }
-#contentmenu{
+#contentmenu {
+  border-radius: 35px 35px 0 0;
   height: 90%;
   overflow: hidden;
+  margin-top: 0.2rem
 }
 #sectionsmenu
   .css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root.Mui-disabled {
@@ -43,7 +44,7 @@
 }
 #sectionsmenu .css-69z67c-MuiTabs-scroller {
   display: flex;
-  height: 60px !important;
+  height: 100% !important;
   align-items: center;
 }
 #sectionsmenu .css-12qnib {
