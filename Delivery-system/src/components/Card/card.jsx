@@ -15,6 +15,19 @@ export default function MediaControlCard(props) {
     ingredients: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
   };
+
+  const [quantity, setQuantity] = React.useState(0);
+
+  const increaseQuantity = () => {
+    setQuantity(quantity + 1);
+  };
+
+  const decreaseQuantity = () => {
+    if (quantity > 0) {
+      setQuantity(quantity - 1);
+    }
+  };
+
   return (
     <Card className="card" sx={{ display: "flex" }}>
       <CardMedia
@@ -38,7 +51,13 @@ export default function MediaControlCard(props) {
           <Typography component="div" variant="h6">
             R$ {props.price}
           </Typography>
+          <div className="quantity-control">
+            <button className="btnquantity" onClick={decreaseQuantity}>-</button>
+            <span>{quantity}</span>
+            <button className="btnquantity" onClick={increaseQuantity}>+</button>
+          </div>
         </CardContent>
+        
       </Box>
     </Card>
   );

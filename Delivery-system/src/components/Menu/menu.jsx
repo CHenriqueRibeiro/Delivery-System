@@ -116,7 +116,12 @@ export default function BasicTabs() {
           />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1} class="tabContents">
-          <Card />
+        <Card
+            imageUrl="https://receitatodahora.com.br/wp-content/uploads/2022/03/pizza-de-calabresa.jpg"
+            flavor="Calabresa com Catupiry"
+            ingredients="Calabresa, Queijo, Mussarela, Orégano, Catupiry"
+            price={19.99}
+          />
           <Card />
           <Card />
           <Card />
