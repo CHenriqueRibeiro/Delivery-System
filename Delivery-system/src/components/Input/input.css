@@ -7,13 +7,13 @@
   min-height: 50px;
   position: relative;
   top: 35%;
-
 }
 
 #outlined-basic {
   position: relative;
   max-width: 326px;
   width: 75vw;
+  min-width: 245px;
   height: 10px;
   color: #000000 !important;
 }
@@ -21,7 +21,8 @@
 label {
   color: #29292c !important;
   left: 2px !important;
-  top: -2px !important;
+  top: -6px !important;
+  transform-origin: -16px 26px !important;
 }
 
 fieldset {

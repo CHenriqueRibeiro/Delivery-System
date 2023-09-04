@@ -14,6 +14,7 @@ export default function MediaControlCard(props) {
     flavor: PropTypes.string.isRequired,
     ingredients: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
+    
   };
 
   const [quantity, setQuantity] = React.useState(0);
@@ -29,35 +30,25 @@ export default function MediaControlCard(props) {
   };
 
   return (
-    <Card className="card" sx={{ display: "flex" }}>
-      <CardMedia
-        component="img"
-        sx={{ width: 100, display: "flex" }}
-        src={props.imageUrl}
-        alt={props.flavor}
-      />
+    <Card className="card">
       <Box className="cardDescription">
-        <CardContent>
-          <Typography component="div" variant="h6">
-            {props.flavor}
-          </Typography>
-          <Typography
-            variant="subtitle2"
-            color="text.secondary"
-            component="div"
-          >
+        <CardMedia component="img" src={props.imageUrl} alt={props.flavor} />
+        <CardContent className="Conteudodocard">
+          <Typography variant="h6">{props.flavor}</Typography>
+          <Typography variant="subtitle2" color="text.secondary">
             {props.ingredients}
           </Typography>
-          <Typography component="div" variant="h6">
-            R$ {props.price}
-          </Typography>
+          <Typography variant="h6">R$ {props.price}</Typography>
           <div className="quantity-control">
-            <button className="btnquantity" onClick={decreaseQuantity}>-</button>
-            <span>{quantity}</span>
-            <button className="btnquantity" onClick={increaseQuantity}>+</button>
+            <button className="btnquantity" onClick={decreaseQuantity}>
+              -
+            </button>
+            <span id="quantitycard">{quantity}</span>
+            <button className="btnquantity" onClick={increaseQuantity}>
+              +
+            </button>
           </div>
         </CardContent>
-        
       </Box>
     </Card>
   );

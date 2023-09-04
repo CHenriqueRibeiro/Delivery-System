@@ -6,6 +6,7 @@
   position: absolute;
   height: 14% !important;
   width: 78%;
+  min-width: 270px;
   max-width: 540px;
   min-height: 78px;
   background-color: #29292c !important;
