@@ -5,14 +5,33 @@ import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
+import cartContext from "./../../context/cartContext";
 
 import "./footer.css";
 
 export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
 
+  const cart = React.useContext(cartContext);
+
+  function cliqueparaaparecer() {
+    const addproducts = document.getElementById("cartitems");
+    addproducts.classList.toggle("cartitemson");
+  }
+
   return (
     <>
+      <div id="cartitems">
+        <BottomNavigationAction
+          id="iconcart-list"
+          label="Carrinho"
+          icon={<ShoppingCartOutlinedIcon />}
+        />
+        <div className="actions">
+          <button onClick={cliqueparaaparecer}>Continuar comprando</button>
+          <button>Pagar</button>
+        </div>
+      </div>
       <div className="footer">
         <BottomNavigation
           className="contentfooter"
@@ -26,9 +45,14 @@ export default function SimpleBottomNavigation() {
             id="carticon "
             className="iconsfooter"
             label="Carrinho"
-            icon={<ShoppingCartOutlinedIcon className="iconsfooter" />}
+            icon={
+              <ShoppingCartOutlinedIcon
+                className="iconsfooter"
+                onClick={cliqueparaaparecer}
+              />
+            }
           />
-          <div id="cartcount"></div>
+          {cart.kart > 0 ? <div id="cartcount">{cart.kart}</div> : ""}
           <BottomNavigationAction
             className="iconsfooter"
             label="Favoritos"
@@ -44,10 +68,3 @@ export default function SimpleBottomNavigation() {
     </>
   );
 }
-/*<div id="cartitems">
-          <BottomNavigationAction
-            id="iconcart-list"
-            label="Carrinho"
-            icon={<ShoppingCartOutlinedIcon />}
-          />
-        </div>*/

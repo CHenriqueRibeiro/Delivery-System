@@ -7,6 +7,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import PropTypes from "prop-types";
 import "./card.css";
+import cartContext from "./../../context/cartContext"
 
 export default function MediaControlCard(props) {
   MediaControlCard.propTypes = {
@@ -18,14 +19,18 @@ export default function MediaControlCard(props) {
   };
 
   const [quantity, setQuantity] = React.useState(0);
+  const cart = React.useContext(cartContext)
+
 
   const increaseQuantity = () => {
     setQuantity(quantity + 1);
+    cart.setKart(cart.kart + 1);
   };
 
   const decreaseQuantity = () => {
     if (quantity > 0) {
       setQuantity(quantity - 1);
+      cart.setKart(cart.kart - 1);
     }
   };
 

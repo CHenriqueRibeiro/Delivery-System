@@ -7,6 +7,8 @@
 #root{
     height: 100vh;
     background-color: #ffd439;
+    overflow: hidden;
+    position: relative;
 }
 
 
@@ -40,7 +42,6 @@
 }
 
 #footer{
-    
     border-radius:35pxs ;
     width: 100%;
     height: 8%;
