@@ -1,11 +1,12 @@
 import * as React from "react";
-
 import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import cartContext from "./../../context/cartContext";
+import Button from "@mui/material/Button";
+
 
 import "./footer.css";
 
@@ -28,8 +29,14 @@ export default function SimpleBottomNavigation() {
           icon={<ShoppingCartOutlinedIcon />}
         />
         <div className="actions">
-          <button onClick={cliqueparaaparecer}>Continuar comprando</button>
-          <button>Pagar</button>
+          
+         
+          <Button className="btnreturnpurchase" variant="outlined">
+            continuar Comprando
+          </Button>
+          <Button className="btncheckout" variant="contained">
+            Finalizar Compra
+          </Button>
         </div>
       </div>
       <div className="footer">
