@@ -20,7 +20,7 @@ export default function MediaControlCard(props) {
   return (
     <Card className="cardCart">
       <Box className="cardDescriptionCart">
-        <CardMedia component="img" src={props.imageUrl} alt={props.flavor} />
+        <CardMedia  className="imgCard" component="img" src={props.imageUrl} alt={props.flavor} />
         <CardContent className="ConteudodocardCart">
           <Typography variant="h6">{props.flavor}</Typography>
           <Typography variant="subtitle2" color="text.secondary">

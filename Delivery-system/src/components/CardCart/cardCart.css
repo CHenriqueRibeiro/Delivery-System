@@ -36,7 +36,7 @@
   align-items: center;
   flex-wrap: nowrap;
 }
-.cardDescriptionCart .css-o69gx8-MuiCardMedia-root {
+.cardDescriptionCart .imgCard{
   display: flex !important;
   width: 25%  !important;
   object-fit: cover  !important;
