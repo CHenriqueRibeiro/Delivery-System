@@ -6,6 +6,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import cartContext from "./../../context/cartContext";
 import Button from "@mui/material/Button";
+import Listcart  from "../Listcart/listcart";
 
 
 import "./footer.css";
@@ -28,10 +29,11 @@ export default function SimpleBottomNavigation() {
           label="Carrinho"
           icon={<ShoppingCartOutlinedIcon />}
         />
+        <Listcart/>
         <div className="actions">
           
          
-          <Button className="btnreturnpurchase" variant="outlined">
+          <Button className="btnreturnpurchase" variant="outlined" onClick={cliqueparaaparecer}>
             continuar Comprando
           </Button>
           <Button className="btncheckout" variant="contained">

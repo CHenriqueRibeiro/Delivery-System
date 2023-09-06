@@ -9,6 +9,7 @@
   flex-direction: row;
   align-content: center;
   flex-wrap: nowrap;
+  z-index: 2;
 }
 .footer .contentfooter {
   display: flex;
@@ -53,8 +54,9 @@
 }
 .cartitemson .btnreturnpurchase {
   color: #cfaa30 !important;
-  
- 
+  width: 80vw !important;
+  border-radius: 35px !important;
+  border: 1px solid #cfaa30 !important;
   
 }
 .cartitemson .btncheckout {
@@ -62,6 +64,7 @@
   background-color: #29292c !important;
   border-radius: 35px !important;
   border: 1px solid #cfaa30 !important;
+  width: 80vw !important;
   
 }
 #iconcart-list {
@@ -71,6 +74,7 @@
   position: absolute;
   border: 4px solid #cfaa30 !important;
   border-radius: 27px 28px 0 0;
+  z-index: 1;
 }
 
 .actions {
@@ -81,7 +85,7 @@
   justify-content: center;
   align-items: center;
   position: inherit;
-  bottom: 15%;
+  bottom: 12%;
   right: 26.5%;
 }
 
@@ -90,6 +94,6 @@
 }
 
 .actions button:first-child {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 

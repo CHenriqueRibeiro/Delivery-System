@@ -1,0 +1,33 @@
+#cartShoppingList {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 58.8%;
+
+  position: relative;
+  top: 3.7rem;
+  z-index: 1;
+  color: yellow;
+}
+.listCardCart {
+  width: 97%;
+  height: 93%;
+
+  position: absolute;
+  top: 0;
+  overflow: scroll;
+}
+.cartSum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97%;
+  height: 10%;
+  position: absolute;
+  bottom: -9px;
+}
+.teste {
+  margin: 15px auto;
+}
