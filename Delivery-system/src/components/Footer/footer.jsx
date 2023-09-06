@@ -43,6 +43,10 @@ export default function SimpleBottomNavigation() {
           </Button>
         </div>
       </div>
+
+
+
+      
       <div className="footer">
         <BottomNavigation
           className="contentfooter"
