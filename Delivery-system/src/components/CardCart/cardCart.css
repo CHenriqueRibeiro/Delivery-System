@@ -36,11 +36,11 @@
   align-items: center;
   flex-wrap: nowrap;
 }
-.cardDescriptionCart .imgCard{
+.cardDescriptionCart .imgCard {
   display: flex !important;
-  width: 25%  !important;
-  object-fit: cover  !important;
-  border-radius: 50%  !important;
+  width: 25% !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
 }
 .quantity-control {
   position: absolute;
@@ -66,4 +66,18 @@
 }
 .cardDescriptionCart .css-46bh2p-MuiCardContent-root {
   padding: 5px 2px 10px 5px !important;
+}
+.conteudodocardCart .iconDelete {
+  padding: 0 !important;
+  position: ab !important;
+  bottom: 1.82rem !important;
+  left: 42.5vw !important;
+  color: #29292c !important;
+}
+
+.conteudodocardCart .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  position: relative !important;
+  bottom: 0.2rem !important;
+  right: 1.5rem !important;
+  vertical-align: top !important;
 }
