@@ -37,11 +37,10 @@
   flex-wrap: nowrap;
 }
 .cardDescriptionCart .css-o69gx8-MuiCardMedia-root {
-  display: flex;
-  -webkit-background-position: center;
-  width: 25%;
-  object-fit: cover;
-  border-radius: 50%;
+  display: flex !important;
+  width: 25%  !important;
+  object-fit: cover  !important;
+  border-radius: 50%  !important;
 }
 .quantity-control {
   position: absolute;
