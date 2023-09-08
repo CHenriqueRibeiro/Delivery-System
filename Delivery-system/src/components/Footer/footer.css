@@ -55,9 +55,9 @@
 .cartitemson .btnreturnpurchase {
   color: #cfaa30 !important;
   width: 80vw !important;
+  max-width: 375px !important;
   border-radius: 35px !important;
   border: 1px solid #cfaa30 !important;
-  
 }
 .cartitemson .btncheckout {
   color: #cfaa30 !important;
@@ -65,7 +65,7 @@
   border-radius: 35px !important;
   border: 1px solid #cfaa30 !important;
   width: 80vw !important;
-  
+  max-width: 375px !important;
 }
 #iconcart-list {
   max-width: none;
@@ -84,8 +84,8 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  position: inherit;
-  bottom: 12%;
+  position: absolute;
+  bottom: 11%;
   right: 26.5%;
 }
 
@@ -96,4 +96,3 @@
 .actions button:first-child {
   margin-bottom: 10px;
 }
-
