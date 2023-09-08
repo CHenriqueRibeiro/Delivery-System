@@ -40,7 +40,7 @@ export default function MediaControlCard(props) {
             <DeleteIcon />
           </IconButton>
           <TextField 
-            id="standard-basic"
+            className="standard-basic"
             label="Observações"
             variant="standard"
           />

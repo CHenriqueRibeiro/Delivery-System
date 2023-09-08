@@ -6,8 +6,10 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import PropTypes from "prop-types";
+import cartContext from "./../../context/cartContext";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import BottomNavigation from "@mui/material/BottomNavigationAction";
 import "./card.css";
-import cartContext from "./../../context/cartContext"
 
 export default function MediaControlCard(props) {
   MediaControlCard.propTypes = {
@@ -15,12 +17,10 @@ export default function MediaControlCard(props) {
     flavor: PropTypes.string.isRequired,
     ingredients: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
-    
   };
 
   const [quantity, setQuantity] = React.useState(0);
-  const cart = React.useContext(cartContext)
-
+  const cart = React.useContext(cartContext);
 
   const increaseQuantity = () => {
     setQuantity(quantity + 1);
@@ -53,6 +53,11 @@ export default function MediaControlCard(props) {
               +
             </button>
           </div>
+          <BottomNavigation
+            className="btnFavorite"
+            label="Carrinho"
+            icon={<FavoriteIcon />}
+          />
         </CardContent>
       </Box>
     </Card>
