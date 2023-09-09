@@ -6,57 +6,64 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import cartContext from "./../../context/cartContext";
 import Button from "@mui/material/Button";
-import Listcart from "../Listcart/listcart";
+import ListCart from "../Listcart/ListCart";
 
-import "./footer.css";
+import "./Footer.css";
 
 export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
 
   const cart = React.useContext(cartContext);
 
+  /*função para quando apertar o botao de continuar comprando*/
   function cliqueparaaparecer() {
-    const addproducts = document.getElementById("cartitems");
-    addproducts.classList.toggle("cartitemson");
+    const addproducts = document.getElementById("displayItems");
+    addproducts.classList.toggle("displayItemson");
   }
+  /*função para quando apertar o botao de continuar comprando*/
 
   return (
     <>
-      <div id="cartitems">
-        <BottomNavigationAction
+      <div id="displayItems" /*----Essa div mostra todo os itens quando clica no carrinho e sobe a Tela--*/>
+
+        <BottomNavigationAction  /*----Icone de carrinho que fica na parte de cima da tela de itens--*/
           id="iconcart-list"
           label="Carrinho"
           icon={<ShoppingCartOutlinedIcon />}
           onClick={cliqueparaaparecer}
         />
-        <Listcart />
-        <div className="actions">
-          <Button
+
+        <ListCart /*----Esse e o componente ListCart--*/ />
+
+        <div className="cartButtons" /*----Essa div mostra todo os Botoes de  quando clica no carrinho e sobe a Tela--*/>
+
+          <Button /*----Botão de continuar Comprando--*/
             className="btnreturnpurchase"
             variant="outlined"
-            onClick={cliqueparaaparecer}
-          >
+            onClick={cliqueparaaparecer}>
             continuar Comprando
           </Button>
-          <Button className="btncheckout" variant="contained">
+
+          <Button /*----Botão de Finalizar Compra--*/
+            className="btncheckout"
+            variant="contained" >
             Finalizar Compra
           </Button>
+
         </div>
       </div>
 
+      <div className="footer" /*----Essa div mostra todo os Itens do Footer--*/>
 
-
-      
-      <div className="footer">
         <BottomNavigation
-          className="contentfooter"
+          className="contentFooter"
           showLabels
           value={value}
           onChange={(event, newValue) => {
             setValue(newValue);
-          }}
-        >
-          <BottomNavigationAction
+          }}>
+
+          <BottomNavigationAction /*----Icone de carrinho do Footer--*/
             id="carticon "
             className="iconsfooter"
             label="Carrinho"
@@ -64,20 +71,23 @@ export default function SimpleBottomNavigation() {
               <ShoppingCartOutlinedIcon
                 className="iconsfooter"
                 onClick={cliqueparaaparecer}
-              />
-            }
+              />}
           />
+
           {cart.kart > 0 ? <div id="cartcount">{cart.kart}</div> : ""}
-          <BottomNavigationAction
+          <BottomNavigationAction /*----Icone de Favoritos do Footer--*/
+            id="carticon "
             className="iconsfooter"
             label="Favoritos"
             icon={<FavoriteIcon className="iconsfooter" />}
           />
-          <BottomNavigationAction
+
+          <BottomNavigationAction /*----Icone de Perfil do Footer--*/
             className="iconsfooter"
             label="Perfil"
             icon={<AccountCircleOutlinedIcon className="iconsfooter" />}
           />
+          
         </BottomNavigation>
       </div>
     </>

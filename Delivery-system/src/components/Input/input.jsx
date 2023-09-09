@@ -2,13 +2,23 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
-import "./input.css";
+import "./Input.css";
 export default function BasicTextFields() {
   return (
-    <Box  id="boxinput"className="inputbox" component="form" noValidate autoComplete="off">
-      <TextField id="outlined-basic" label="Ta com fome de quê?" variant="outlined" />
+    /*---Componente Input--*/
+    <Box
+      id="boxinput"
+      className="inputbox"
+      component="form"
+      noValidate
+      autoComplete="off"
+    >
+      <TextField
+        id="outlined-basic"
+        label="Ta com fome de quê?"
+        variant="outlined"
+      />
     </Box>
+    /*---Componente Input--*/
   );
 }
-
-
