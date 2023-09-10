@@ -1,4 +1,4 @@
-.cardCart {
+.displayCart {
   height: 40%;
   display: flex;
   flex-flow: row nowrap;
@@ -27,7 +27,7 @@
   box-shadow: 0px 0px 5px 2px #555;
 }
 
-.cardDescriptionCart {
+.cartDescription {
   height: 100%;
   width: 100%;
   display: flex;
@@ -36,7 +36,7 @@
   align-items: center;
   flex-wrap: nowrap;
 }
-.cardDescriptionCart .imgCard {
+.cartDescription .imgCard {
   display: flex !important;
   width: 25% !important;
   object-fit: cover !important;
@@ -67,7 +67,7 @@
 .css-46bh2p-MuiCardContent-root {
   padding: 5px 2px 10px 5px !important;
 }
-.conteudodocardCart .iconDelete {
+.contentCart .iconDelete {
   padding: 0 !important;
 
   bottom: 1.82rem !important;
@@ -75,7 +75,7 @@
   color: #29292c !important;
 }
 
-.conteudodocardCart .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+.contentCart .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
   position: relative !important;
   bottom: 0.2rem !important;
   right: 1.5rem !important;
