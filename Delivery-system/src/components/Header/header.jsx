@@ -2,9 +2,9 @@ import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Logo from "@mui/material/Avatar";
-import Input from "../Input/Input";
+import Input from "../Input/input";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import "./Header.css";
+import "./header.css";
 
 export default function SimpleContainer() {
   const imagem =

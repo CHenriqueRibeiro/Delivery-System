@@ -9,7 +9,7 @@ import PropTypes from "prop-types";
 import TextField from "@mui/material/TextField";
 import DeleteIcon from "@mui/icons-material/Delete";
 import IconButton from "@mui/material/IconButton";
-import "./Cart.css";
+import "./cart.css";
 
 export default function MediaControlCard(props) {
   /*---Props dos Card do carrinho--*/

@@ -6,7 +6,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import cartContext from "./../../context/cartContext";
 import Button from "@mui/material/Button";
-import ListCart from "../Listcart/ListCart";
+import ListCart from "../Listcart/listCart";
 
 import "./Footer.css";
 

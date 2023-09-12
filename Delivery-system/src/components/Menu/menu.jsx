@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
-import Card from "../Card/Card";
-import "./Menu.css";
+import Card from "../Card/card";
+import "./menu.css";
 
 
 function CustomTabPanel(props) {

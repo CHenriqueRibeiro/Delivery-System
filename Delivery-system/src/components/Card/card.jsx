@@ -9,7 +9,7 @@ import PropTypes from "prop-types";
 import cartContext from "./../../context/cartContext";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import BottomNavigation from "@mui/material/BottomNavigationAction";
-import "./Card.css";
+import "./card.css";
 
 export default function MediaControlCard(props) {
   /*---Props dos Card--*/
