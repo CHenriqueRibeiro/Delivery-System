@@ -8,7 +8,7 @@ import cartContext from "./../../context/cartContext";
 import Button from "@mui/material/Button";
 import ListCart from "../Listcart/listcart";
 
-import "./Footer.css";
+import "./footer.css";
 
 export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
