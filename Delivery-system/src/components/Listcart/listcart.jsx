@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import * as React from "react";
 import Cart from "../Cart/cart";
-import "./listCart.css";
+import "./listcart.css";
 
 export default function listCart() {
 
