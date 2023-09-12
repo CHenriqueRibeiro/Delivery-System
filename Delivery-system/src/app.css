@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 #root {
-  height: 100vh;
+  height: 100dvh;
   background-color: #ffd439;
   overflow: hidden;
   position: relative;
